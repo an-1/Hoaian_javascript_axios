@@ -1,6 +1,9 @@
 var nguoiDungService = new NguoiDungService();
 
 getListUser();
+function themNguoiDungTest(){
+  console.log("them nd 2");
+}
 
 getEle("btnThemNguoiDung").addEventListener("click", function() {
   document.getElementsByClassName("modal-title")[0].innerHTML =
